@@ -1,8 +1,49 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Afrose Techy-Trade World"
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+baseURL = 'https://afrose-techy-trade-blog.netlify.app/'
+languageCode = 'en-us'
+title = 'Your Money-Making Blog'
+theme = 'hugo-theme-stack'
 
+# Modern design settings
 [params]
-images = ["img/2789644.jpg"]
+  description = "Daily insights on making money online as a student"
+  defaultImage = "/images/cover.jpg"
+  
+  [params.site]
+    logo = "/images/logo.png"
+    title = "Money Making Journey"
+    
+  [params.article]
+    showReadingTime = true
+    showEdit = false
+    math = false
+
+  [params.home]
+    title = "Start Your Money-Making Journey"
+    subtitle = "Daily tips, strategies and insights for students"
+
+# Navigation menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+# Social links
+[social]
+  Twitter = "https://twitter.com/yourusername"
+  GitHub = "https://github.com/yourusername"
+
+[services]
+  [services.googleAnalytics]
+    id = "YOUR_GA_ID"
