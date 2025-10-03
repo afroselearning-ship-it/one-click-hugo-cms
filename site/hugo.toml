@@ -1,49 +1,57 @@
 baseURL = 'https://afrose-techy-trade-blog.netlify.app/'
 languageCode = 'en-us'
-title = 'Your Money-Making Blog'
-theme = 'hugo-theme-stack'
+title = 'Techy Trade Blog'
+theme = 'hugo-papermod'
 
-# Modern design settings
+# Enable Emoji for fun
+enableEmoji = true
+
 [params]
-  description = "Daily insights on making money online as a student"
-  defaultImage = "/images/cover.jpg"
+  description = "Complete guide to tech trading and money making strategies"
+  defaultTheme = "light"
+  # homeInfoMode = "custom"  # Uncomment for custom home layout
   
-  [params.site]
-    logo = "/images/logo.png"
-    title = "Money Making Journey"
-    
-  [params.article]
-    showReadingTime = true
-    showEdit = false
-    math = false
+  [params.assets]
+    favicon = "/favicon.ico"
+    # theme_color = "#6c5ce7"  # Purple accent
+  
+  [params.profileMode]
+    enabled = false  # Set to true if you want a profile header
+  
+  [params.homeInfoParams]
+    Title = "Techy Trade Blog"
+    Content = """
+    Your complete guide to making money through tech trading. 
+    Daily insights, strategies, and market analysis.
+    """
+  
+  [params.label]
+    name = "Tech Trading"
+    # color = "#6c5ce7"  # Purple like Bolt site
 
-  [params.home]
-    title = "Start Your Money-Making Journey"
-    subtitle = "Daily tips, strategies and insights for students"
+# Social links (optional)
+[social]
+  # Twitter = "https://twitter.com/yourname"
+  # GitHub = "https://github.com/yourname"
 
-# Navigation menu
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
+    name = "🏠 Home"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    name = "📚 Blog"
+    url = "/posts/"
     weight = 2
   [[menu.main]]
-    identifier = "about"
-    name = "About"
+    name = "ℹ️ About"
     url = "/about/"
     weight = 3
-
-# Social links
-[social]
-  Twitter = "https://twitter.com/yourusername"
-  GitHub = "https://github.com/yourusername"
+  [[menu.main]]
+    name = "📧 Contact"
+    url = "/contact/"
+    weight = 4
 
 [services]
   [services.googleAnalytics]
-    id = "YOUR_GA_ID"
+    id = "GA-TRACKING-ID"
