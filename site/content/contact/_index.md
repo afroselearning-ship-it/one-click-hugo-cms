@@ -1,19 +1,12 @@
 ---
-title: "Contact"
-logo: "/img/logo.svg"
+title: Contact
+logo: https://i.pinimg.com/736x/fc/27/fb/fc27fb81e77cc56ba4ed981d7801ceb9.jpg
 contact_entries:
   - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
+    text: Bharathiyar Nagar, 2nd Cross, Krishnagiri, Tamil Nadu - 635001
   - heading: Working hours
     text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Email
+    text: afroselearning@gmail.com
 ---
-
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
-
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+Have questions about technology, trading, or want to collaborate? I'd love to hear from you. Let's start a conversation!
